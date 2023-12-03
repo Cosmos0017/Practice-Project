@@ -1,2 +1,2 @@
 # Practice-Project
-This is a practice project for git pipeline
+This is a practice project for learning python and git
