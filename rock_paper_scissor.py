@@ -25,7 +25,8 @@ def is_win(p1, p2):
     param p2: player 2 input
     win rules: r>s, s>p, p>r
     """
-    if (p1 == "r" and p2 == "s") or (p1 == "s" and p2 == "p") or (p1 == "p" and p2 == "r"):
+    if (p1 == "r" and p2 == "s") or (p1 == "s" and p2 == "p") \
+        or (p1 == "p" and p2 == "r"):
         return True
 
 print(play())
